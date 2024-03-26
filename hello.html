@@ -1,8 +1,27 @@
+<!DOCTYPE html>
 <html>
 <head>
   <link rel="stylesheet" href="hello.css">
 </head>
-  <body>
-    <h1>document.getElementsByClassName("headline-1 js-widont prettify")</h1>
-  </body>
+<body>
+  <h1 class="headline-1 js-widont prettify">Here's the movie!</h1>
+  <!-- Add an element where you want to display the extracted text -->
+  <div id="output"></div>
+  
+  <script>
+    // Select elements with the specified class names
+    var elements = document.getElementsByClassName("headline-1 js-widont prettify");
+    
+    // Initialize a variable to hold the combined text
+    var combinedText = '';
+    
+    // Loop through each element and add its text to the combinedText variable
+    for(var i = 0; i < elements.length; i++) {
+      combinedText += elements[i].innerText + "\n"; // Use innerText or textContent
+    }
+    
+    // Display the combined text in the 'output' div
+    document.getElementById('output').innerText = combinedText;
+  </script>
+</body>
 </html>

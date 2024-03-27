@@ -3,9 +3,6 @@
   "name": "Hello Movie",
   "description": "Base Level Extension",
   "version": "1.0",
-  "permissions": [
-    "activeTab"
-  ]
   "action": {
     "default_popup": "hello.html",
     "default_icon": "smiling face.png"

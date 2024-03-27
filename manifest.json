@@ -6,7 +6,7 @@
   "action": {
     "default_popup": "hello.html",
     "default_icon": "smiling face.png"
-  }
+  },
   "content_scripts": [
     {
       "js": ["scripts/content.js"],

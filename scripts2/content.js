@@ -1,4 +1,4 @@
-const title = document.querySelector('.headline-1');
+const title = document.querySelector('h1.headline-1');
 
 if (title) {
   const badge = document.createElement("p");

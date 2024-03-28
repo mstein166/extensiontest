@@ -11,7 +11,7 @@
     {
       "matches": [
         "https://letterboxd.com/*"
-      ]
+      ],
       "js": ["scripts2/content.js"]
     }
   ]

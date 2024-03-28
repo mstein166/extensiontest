@@ -9,10 +9,10 @@
   },
   "content_scripts": [
     {
-      "js": ["scripts2/content.js"],
       "matches": [
         "https://letterboxd.com/*"
       ]
+      "js": ["scripts2/content.js"]
     }
   ]
 }

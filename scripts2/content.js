@@ -1,8 +1,12 @@
 const title = document.querySelector('h1.headline-1');
 
-if (title) {
-  const badge = document.createElement("p");
-  badge.classList.add("color-secondary-text", "type--caption");
-  badge.textContent = `Your movie is ${title.textContent}!`;
-  document.body.appendChild(badge);
-}
+if (title !== null) {
+        // This will get the text, including converting "&nbsp;" to a regular space
+        const text = title.textContent;
+  
+        // Print the text to the console
+        console.log(text);
+    } else {
+        console.log('Element not found');
+    }
+});

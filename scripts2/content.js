@@ -9,4 +9,3 @@ if (title !== null) {
     } else {
         console.log('Element not found');
     }
-});
